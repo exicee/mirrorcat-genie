@@ -1,0 +1,165 @@
+/* General Reset and Body Styles */
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sour Gummy", sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #1e81b0;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.picture {
+   width: 100%;
+   height: auto;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+   
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    background-color: #555;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+.intro { 
+    letter-spacing: .025em;
+    line-height: 80%;
+    font-weight: 300;
+ }
+
+/* Section Styling */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* About Section */
+.about {
+    background-color: white;
+    margin: 20px 0;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block;
+    background-color: #431232;
+    color: white;
+    margin: 7px 13px;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+/* Projects Section */
+.projects {
+    display: inline-block;
+    gap: 20px;
+}
+
+.project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: white;
+    margin: 20px 0;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 15px 25px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
